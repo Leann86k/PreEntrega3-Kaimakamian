@@ -1,0 +1,58 @@
+/* Estilos básicos para el menú hamburguesa y productos */
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.menu-button {
+  cursor: pointer;
+  font-size: 24px;
+  display: inline-block;
+}
+.menu {
+  display: none;
+  background-color: #f8f9fa;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  border: 1px solid #ddd;
+}
+.menu.open {
+  display: block;
+}
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.menu a:hover {
+  background-color: #ddd;
+}
+.product,
+.cart-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+.product button,
+.cart-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.product button:hover,
+.cart-item button:hover {
+  background-color: #0056b3;
+}
